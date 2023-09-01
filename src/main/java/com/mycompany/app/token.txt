@@ -1,0 +1,9 @@
+token:  sqp_472586bec655ca211a5017ddd6b7d4b647585935
+
+
+maven code:
+   mvn clean install verify sonar:sonar 
+  -Dsonar.projectKey=ghost 
+  -Dsonar.projectName='ghost' 
+  -Dsonar.host.url=http://localhost:9099 
+  -Dsonar.token=sqp_472586bec655ca211a5017ddd6b7d4b647585935

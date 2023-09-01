@@ -1,0 +1,10 @@
+mvn clean install verify sonar:sonar 
+  -Dsonar.projectKey=dugra 
+  -Dsonar.projectName='dugra' 
+  -Dsonar.host.url=http://localhost:9099 
+  -Dsonar.token=sqp_27e84031e11c692b95e7fc0227056429141557de
+
+
+
+
+token: sqp_27e84031e11c692b95e7fc0227056429141557de
